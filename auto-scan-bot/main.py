@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import sys
 from burp import IBurpExtender
 from burp import IScannerCheck
