@@ -29,6 +29,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         issues = self._callbacks.doActiveScan(baseRequestResponse.getUrl().toString(), baseRequestResponse)
         return issues
 
+    
 ################################
 #         Bot Details
 # BurpSuiteBots/auto-scan-bott/main.py 
